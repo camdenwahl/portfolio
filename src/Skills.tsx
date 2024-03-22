@@ -23,7 +23,7 @@ function Skills () {
             <h1 className = "text-4xl p-5">A glance at my tech stack:</h1>
             <div className = "flex bg-[#6320EE] p-5 rounded-lg w-full shadow-2xl">
             {imageState?.map((imagePath) => (
-                <img src = {imagePath} className = "w-1/6"/>
+                <img src = {imagePath.toString()} className = "w-1/6"/>
             ))}
             </div>
         </div>
