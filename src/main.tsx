@@ -6,6 +6,7 @@ import Skills from './Skills'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Bio from './Bio'
 import Portfolio from './Portfolio'
+import Current from './Current'
 
 
 const router = createBrowserRouter([
@@ -16,6 +17,7 @@ const router = createBrowserRouter([
     <Navigation />
     <Skills />
     <Bio />
+    <Current />
     <Portfolio />
     </>
   },

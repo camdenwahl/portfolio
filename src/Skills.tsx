@@ -20,7 +20,7 @@ function Skills () {
 
     return (
         <div className = "flex m-10 flex-col">
-            <h1 className = "text-4xl p-5">A glance at my tech stack:</h1>
+            <h1 className = "text-4xl p-5 text-center">A glance at my tech stack:</h1>
             <div className = "flex bg-[#6320EE] p-5 rounded-lg w-full shadow-2xl md:flex-nowrap flex-wrap items-center justify-center">
             {imageState?.map((imagePath) => (
                 <img src = {imagePath.toString()} className = "w-1/4 m-2 md:w-1/2"/>
